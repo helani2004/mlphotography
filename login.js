@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Check credentials
         if (username === 'Admin' && password === 'Malcome123') {
             // Redirect to admin dashboard
+            alert('Login Successful');
             window.location.href = 'admin.html';
         } else if (username === 'Client' && password === 'client123') {
             // Redirect to client page
